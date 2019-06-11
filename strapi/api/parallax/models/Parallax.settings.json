@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "parallax",
+  "info": {
+    "name": "parallax",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "subtitle": {
+      "default": "",
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

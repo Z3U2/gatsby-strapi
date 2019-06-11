@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/firstpages",
+      "handler": "Firstpage.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/firstpages/count",
+      "handler": "Firstpage.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/firstpages/:_id",
+      "handler": "Firstpage.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/firstpages",
+      "handler": "Firstpage.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/firstpages/:_id",
+      "handler": "Firstpage.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/firstpages/:_id",
+      "handler": "Firstpage.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "connection": "default",
+  "collectionName": "firstpage",
+  "info": {
+    "name": "firstpage",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "banner": {
+      "model": "parallax"
+    },
+    "presentation": {
+      "default": "",
+      "type": "text"
+    },
+    "events": {
+      "model": "parallax"
+    },
+    "quotes": {
+      "collection": "quote",
+      "via": "firstpage",
+      "dominant": true
+    },
+    "participate": {
+      "default": "",
+      "type": "text"
+    },
+    "events-button": {
+      "default": "",
+      "type": "string"
+    },
+    "participate-button": {
+      "default": "",
+      "type": "string"
+    },
+    "donation-button": {
+      "default": "",
+      "type": "string"
+    },
+    "donation": {
+      "default": "",
+      "type": "text"
+    },
+    "presentation-button": {
+      "default": "",
+      "type": "string"
+    },
+    "participate-icon": {
+      "default": "",
+      "type": "string"
+    },
+    "donation-icon": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

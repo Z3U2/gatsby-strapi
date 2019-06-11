@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/parallaxes",
+      "handler": "Parallax.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/parallaxes/count",
+      "handler": "Parallax.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/parallaxes/:_id",
+      "handler": "Parallax.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/parallaxes",
+      "handler": "Parallax.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/parallaxes/:_id",
+      "handler": "Parallax.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/parallaxes/:_id",
+      "handler": "Parallax.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

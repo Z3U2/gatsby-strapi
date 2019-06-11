@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "quote",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "position": {
+      "default": "",
+      "type": "string"
+    },
+    "text": {
+      "default": "",
+      "type": "string"
+    },
+    "firstpage": {
+      "model": "firstpage",
+      "via": "quotes"
+    }
+  }
+}

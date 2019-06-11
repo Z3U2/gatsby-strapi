@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "footer",
+  "info": {
+    "name": "footer",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "paragraph": {
+      "default": "",
+      "type": "text"
+    },
+    "paragraph-icon": {
+      "default": "",
+      "type": "string"
+    },
+    "socialmedias": {
+      "collection": "socialmedia",
+      "via": "footer"
+    },
+    "organization-name": {
+      "default": "",
+      "type": "string"
+    },
+    "copyright-year": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}
