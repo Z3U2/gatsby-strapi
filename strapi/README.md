@@ -1,12 +1,3 @@
-<style>
-  strong {
-    color : #0080ff;
-  }
-  h1,h2,h3,h4,h5,h6 {
-    color : #005ab3;
-  }
-
-</style>
 
 
 <h1 align="center">
